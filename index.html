@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sign Up for Your Dream Car - an interactive HTML form</title>
+</head>
+
+<body>
+<div id="formz" class="container">
+<form> 
+    <label for="Firstname"><Firstname:->Firstname:</Firstname:-></label>
+    <input type="text" placeholder="Type Your Firstname Here" required>
+    
+    <hr/>
+    
+    <label for="Secondname">Secondname:</label>
+    <input type="text" placeholder="Type Your Secondname Here" required>
+    
+    <hr/>
+    
+    <label for="D.O.B">D.O.B</label>
+    <input type="date" required>
+    
+    <hr/>
+    
+    <label for="cell">Mobile No.</label>
+    <input type="tel" placeholder="Type Your Mobile No. Here" required>
+
+    <hr/>
+
+    <label for="altcell">Alternate Mobile No.</label>
+    <input type="tel" placeholder="Type Alternate Mobile No. Here" required>
+
+    <hr/>
+
+    <label for="E-mail"><E-mail>E-mail</E-mail></label>
+    <input type="email" placeholder="Type Your E-mail Here" required>
+
+    <hr/>
+
+    <label for="Referred By">Referred By:</label>
+    <input type="text" placeholder="Who Referred You Here" required>
+    
+     <hr/>
+
+     <label for="cars">Choose Your Car:</label>
+     <select name="dropdown" id="slct">
+         <option value="none" selected disabled hidden >Choose Your Dream Car Precisely</option>
+          <option value="Audi">1:Audi R8</option>
+          <option value="Bmw">2: 2015 BMW M4 Convertible</option>  
+          <option value="Mercedez">3:2015 Mercedez S-Coupe </option>
+          <option value="Jaguar">4:2015 Jaguar XF</option>
+        </select>
+<hr/>
+      <label for="rechecking" id="slc">I'VE RECHECKED ALL THE DETAILS</label>
+      <input type="checkbox" required>
+      <br>
+      <br>
+      
+      <button>Submit</button>
+
+
+      
+    </form>
+</div>
+
+ 
+
+</body>
+</html>

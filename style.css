@@ -1,0 +1,68 @@
+
+
+body{
+    text-align: center;
+    color: yellow;
+    background-image: url(https://carwow-uk-wp-3.imgix.net/xe-vs-3-vs-c.jpg);    
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    margin: auto;
+    width: 50%; 
+   padding: 16px;
+   background-color: black;
+   box-shadow: 20px 20px 20px 0px rgba(0,0,0,0.7);
+}
+::placeholder{
+    color: black;
+}
+
+
+input[type='text'],
+input[type='date'],
+input[type='tel'],
+input[type='email'],
+input[type='checkbox'],
+ #slct , #slc {
+
+
+    width:100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: skyblue;
+}
+input[type='text']:focus,
+input[type='password']:focus {
+  background-color: red;
+  outline: none;    
+}
+button {
+ background-color: royalblue;
+color: white;
+padding: 16px;
+border: none;
+cursor: pointer;
+width: 100%;
+margin: auto;
+opacity: 0.8;
+border-radius: 10px;
+}
+button:hover{
+    opacity: 1;
+  
+}
+
+
+
+
+
+
+
+
+
